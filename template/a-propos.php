@@ -25,7 +25,7 @@ Template Name: APropos
             </p>
         </div>
 
-        <div class=" lg:flex justify-between w-full lg:gap-20 items-center">
+        <div class=" lg:flex justify-between w-full lg:gap-20 items-center mt-10">
             <img class=" mt-5 mb-10 lg:w-1/2 lg:m-0"
                 src="<?php echo get_template_directory_uri(); ?>/img/a-propos-2.png" alt="paysage avec des arbres">
 
@@ -35,6 +35,7 @@ Template Name: APropos
                     E-Car VTC assure majoritairement la recharge de son véhicule sur une bonne Schneider EV-link. Son
                     fournisseur d'électricité est EDF et son abonnement « vert électrique auto » garantit une fourniture
                     électrique 100% décarbonée.
+                    <br />
                     <br />
                     E-Car VTC ne recourt aux superchargeurs que pour les courses supérieures à 250 km. Dans ce cas, un
                     arrêt de
@@ -55,6 +56,7 @@ Template Name: APropos
                 Citroën (maintenant Stellantis). Cette activité de mise au point de prototypes l'a emmené sur des routes
                 variées en Europe , Amérique du Nord, Afrique et Scandinavie.
                 <br />
+                <br />
                 Une formation continue tout au long de sa carrière lui a permis de rouler sur les plus grand circuits
                 automobiles (Spa-Franchorchamps, Nurburgring, Dijon-Prenois,…), et sur tous les terrains : asphalte,
                 anneaux
@@ -69,18 +71,26 @@ Template Name: APropos
                 La KIA EV6 est le fleuron de la gamme KIA, elle dispose d'une batterie de 77,4 kwh, et son efficience
                 énergétique lui permet d'afficher une autonomie de l'ordre de 400 km en été et 300 km en hiver.
                 <br />
+                <br />
                 La Kia EV6 propose un espace à bord exceptionnel grâce à son empattement de près de 3 mètres et à son
                 plancher plat.
             </p>
         </div>
 
-        <div>
-            <h2>Réseau de super chargeurs</h2>
-            <p class=" text-sm font-medium">
-                E-Car VTC utilise indifféremment les réseaux de superchargeurs Fastned, Ionity et Total Energies.
-                <br />
-                Ces solutions assurent donc un approvisionnement constant en energie pour le véhicule.
-            </p>
+
+        <div class=" lg:flex justify-between w-full lg:gap-20 items-center mt-10 mb-28">
+            
+            <div>
+                <h2>Réseau de super chargeurs</h2>
+                <p class=" text-sm font-medium mb-10">
+                    E-Car VTC utilise indifféremment les réseaux de superchargeurs Fastned, Ionity et Total Energies.
+                    <br />
+                    <br />
+                    Ces solutions assurent donc un approvisionnement constant en energie pour le véhicule.
+                </p>
+            </div>
+            <img class=" mt-5 mb-10 lg:w-1/2 lg:m-0"
+                src="<?php echo get_template_directory_uri(); ?>/img/a-propos-1.png" alt="voiture électrique qui se recharge">
         </div>
     </div>
 
