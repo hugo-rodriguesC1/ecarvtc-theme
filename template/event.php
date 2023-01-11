@@ -15,6 +15,11 @@ Template Name: Event
     </div>
 
     <?php
+            if ( function_exists('yoast_breadcrumb') ) {
+            yoast_breadcrumb('
+            <p id="breadcrumbs">','</p>');}?>
+
+    <?php
             $args = array(
                 'post_type' => 'evenement',
                 // 'name' => '400-km'

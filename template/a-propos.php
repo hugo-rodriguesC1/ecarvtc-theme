@@ -14,6 +14,12 @@ Template Name: APropos
         <div class="h-px w-[16vw] bg-black  hidden sm:block"></div>
     </div>
 
+
+    <?php
+            if ( function_exists('yoast_breadcrumb') ) {
+            yoast_breadcrumb('
+            <p id="breadcrumbs">','</p>');}?>
+
     <div class="px-6 xs:px-10 sm:px-20 md:px-32 lg:px-20">
         <div>
             <h2>Notre société</h2>
