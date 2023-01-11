@@ -13,7 +13,7 @@ Template Name: Tarif
 
     <img class="hidden lg:block w-full" src="<?php echo get_template_directory_uri(); ?>/img/imgCB.webp" alt="photo d'une carte bancaire">
 
-    <div class="lg:flex lg:items-center lg:justify-center lg:gap-10">
+    <div class="lg:flex lg:items-center lg:justify-center lg:gap-10 lg:mt-10">
         <div class="h-px w-[16vw] bg-black hidden lg:block"></div>
         <h2 class="font-bold text-2xl ml-[25px] sm:ml-20 md:ml-10 lg:w-auto lg:text-black lg:bg-transparent lg:normal-case lg:ml-0">Transferts</h2>
         <div class="h-px w-[16vw] bg-black hidden lg:block"></div>
