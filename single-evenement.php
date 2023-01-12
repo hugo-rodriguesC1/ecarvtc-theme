@@ -10,11 +10,16 @@
                 <?php the_title(); ?></h1>
             <div class="h-px w-[16vw] bg-black  hidden sm:block"></div>
         </div>
-        <?php
+        
+        <div  class="px-6 mt-20 xs:px-10 sm:px-16 md:px-32">
+
+        <div class="text-sm font-medium my-5">
+            <?php
             if ( function_exists('yoast_breadcrumb') ) {
             yoast_breadcrumb('
             <p id="breadcrumbs">','</p>');}?>
-        <div  class="px-6 mt-20 xs:px-10 sm:px-16 md:px-32">
+        </div>
+
             <div class="flex gap-2 items-center">
                 <div class="w-[40px] h-[40px] bg-gradient-to-r from-[#0378d6] to-[#0d38aa]"></div>
                 <h2><?php the_title(); ?></h2>

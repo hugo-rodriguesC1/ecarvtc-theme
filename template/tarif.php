@@ -13,10 +13,12 @@ Template Name: Tarif
 
     <img class="hidden lg:block w-full" src="<?php echo get_template_directory_uri(); ?>/img/imgCB.webp" alt="photo d'une carte bancaire">
 
-    <?php
+    <div class="px-6 xs:px-10 sm:px-20 md:px-32 lg:px-40 text-sm font-medium my-5">
+            <?php
             if ( function_exists('yoast_breadcrumb') ) {
             yoast_breadcrumb('
             <p id="breadcrumbs">','</p>');}?>
+        </div>
 
     <div class="lg:flex lg:items-center lg:justify-center lg:gap-10 lg:mt-10">
         <div class="h-px w-[16vw] bg-black hidden lg:block"></div>
@@ -121,12 +123,7 @@ Template Name: Tarif
                     (Le Monde, les Echos)
                 </div>
             </div>
-            <div class="w-52 flex flex-col justify-center items-center font-medium text-base text-center gap-6 lg:w-auto">
-                <img class="px-0" src="<?php echo get_template_directory_uri(); ?>/img/wifi.svg" alt="icone wifi"/>
-                <div class="font-medium text-base text-center px-10">
-                    Wifi disponible
-                </div>
-            </div>
+            
             <div class="w-52 flex flex-col justify-center items-center font-medium text-base text-center gap-6 lg:w-auto">
                 <img class="px-0" src="<?php echo get_template_directory_uri(); ?>/img/accueil.svg" alt="icone deux mains qui se serrent"/>
                 <div class="font-medium text-base text-center px-10">
@@ -155,7 +152,7 @@ Template Name: Tarif
         <p>Contactez nous directement !</p>
     </div>
 
-    <div class="my-14 text-center hidden lg:block">
+    <div class="my-14 text-center hidden lg:block mb-28">
         <a class="uppercase w-52 text-white p-3 bg-[#0D38AA] font-semibold text-base" href="<?php echo home_url('/contact'); ?>">
             Nous contacter
         </a>

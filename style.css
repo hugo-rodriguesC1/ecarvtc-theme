@@ -705,6 +705,11 @@ header nav div.menu-menu_header_desktop-container ul {
   margin-right: auto;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .my-14 {
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
@@ -772,6 +777,14 @@ header nav div.menu-menu_header_desktop-container ul {
 
 .mt-14 {
   margin-top: 3.5rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .mb-14 {
@@ -1697,6 +1710,10 @@ header nav div.menu-menu_header_desktop-container ul {
     margin-bottom: 8rem;
   }
 
+  .lg\:mt-28 {
+    margin-top: 7rem;
+  }
+
   .lg\:ml-0 {
     margin-left: 0px;
   }
@@ -1761,6 +1778,10 @@ header nav div.menu-menu_header_desktop-container ul {
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
   }
 
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
   .lg\:items-center {
     align-items: center;
   }
@@ -1814,9 +1835,9 @@ header nav div.menu-menu_header_desktop-container ul {
     padding: 5rem;
   }
 
-  .lg\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
+  .lg\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
 
   .lg\:pl-5 {

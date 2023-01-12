@@ -10,11 +10,13 @@
                 <?php the_title(); ?></h1>
             <div class="h-px w-[16vw] bg-black  hidden sm:block"></div>
         </div>
-        <div class="px-6 xs:px-10 sm:px-20 md:px-32 lg:px-20 text-sm font-medium">
-            <?php
-            if ( function_exists('yoast_breadcrumb') ) {
-            yoast_breadcrumb('
-            <p id="breadcrumbs">','</p>');}?>
+        <div class="px-6 xs:px-10 sm:px-20 md:px-32 lg:px-40 text-sm font-medium mb-20">
+            <div class="my-5">
+                <?php
+                if ( function_exists('yoast_breadcrumb') ) {
+                yoast_breadcrumb('
+                <p id="breadcrumbs">','</p>');}?>
+            </div>
             <?php the_content(); ?>
         </div>
     </div>

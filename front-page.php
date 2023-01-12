@@ -48,8 +48,8 @@
                 <h2>Les avantages E-car VTC</h2>
             </div>
 
-            <div class="lg:flex justify-center gap-10 lg:mt-20">
-                <div class="relative w-full mb-32">
+            <div class="flex lg:justify-center flex-col lg:flex-row gap-10 lg:mt-20">
+                <div class="relative w-full mb-32 mt-10 lg:mt-0">
                     <img class="w-full" src="<?php echo get_template_directory_uri(); ?>/img/pro-3.webp">
                     <div class="absolute w-4/5 p-4 bg-white left-1/2 right-1/2 top-3/4 -translate-x-1/2 shadow-md">
                         <h3 class=" font-bold">Véhicule électrique</h3>
@@ -60,7 +60,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="relative w-full mb-32">
+                <div class="relative w-full mb-32 ">
                     <img class="w-full" src="<?php echo get_template_directory_uri(); ?>/img/pro-1.webp">
                     <div class="absolute w-4/5 p-4 bg-white left-1/2 right-1/2 top-3/4 -translate-x-1/2 shadow-md">
                         <h3 class=" font-bold">Tarif concurrenciel</h3>
@@ -71,7 +71,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="relative w-full mb-32">
+                <div class="relative w-full mb-32 ">
                     <img class="w-full" src="<?php echo get_template_directory_uri(); ?>/img/pro-2.webp">
                     <div class="absolute w-4/5 p-4 bg-white left-1/2 right-1/2 top-3/4 -translate-x-1/2 shadow-md">
                         <h3 class=" font-bold">Confort unique</h3>
@@ -89,12 +89,12 @@
 
         <div class=" bg-[#0d38aa] w-full mt-40 flex flex-col gap-10">
             <p class="text-[#F3F5FF] px-6 py-6 text-sm sm:w-3/5 sm:m-12">
-                E-car VTC vous propose un trajet avec impact
+                E-Car VTC vous propose un trajet avec impact
                 <span class=" lg:font-bold">environnemental zéro émssion</span>.
                 La conduite sereine et apaisée
                 de notre <span class=" lg:font-bold">chauffeur</span>
                 Luc Eymann vous feras
-                presque oublier qu'E-car VTC possède un des <span class=" lg:font-bold">tarifs les plus bas</span> de la
+                presque oublier qu'E-Car VTC possède un des <span class=" lg:font-bold">tarifs les plus bas</span> de la
                 région !
             </p>
             <a class="px-4 py-3 uppercase text-base font-semibold bg-white border border-white text-[#0d38aa] flex items-center self-end w-56 mb-6 mr-4"
@@ -147,7 +147,7 @@
                 <img class=" lg:hidden" src="<?php echo get_template_directory_uri(); ?>/img/map-icon.svg">
             </div>
 
-            <div class="flex items-center gap-2 mt-10">
+            <div class="flex items-center gap-2 mt-24">
                 <div class="w-[40px] h-[40px] bg-gradient-to-r from-[#0378d6] to-[#0d38aa]">
                 </div>
                 <h2>Véhicule disponible</h2>
