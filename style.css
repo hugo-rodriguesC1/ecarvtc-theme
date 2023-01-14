@@ -763,8 +763,8 @@ header nav div.menu-menu_header_desktop-container ul {
   margin-top: 10rem;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .mr-4 {
@@ -789,10 +789,6 @@ header nav div.menu-menu_header_desktop-container ul {
 
 .mb-14 {
   margin-bottom: 3.5rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 
 .mb-28 {
@@ -1259,6 +1255,11 @@ header nav div.menu-menu_header_desktop-container ul {
   color: rgb(13 56 170 / var(--tw-text-opacity));
 }
 
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1369,6 +1370,25 @@ header nav div.menu-menu_header_desktop-container ul {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(3 120 214 / var(--tw-bg-opacity));
+}
+
+.hover\:border-\[\#0378D6\]:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(3 120 214 / var(--tw-border-opacity));
+}
+
+.hover\:bg-transparent:hover {
+  background-color: transparent;
+}
+
+.hover\:bg-\[\#0378D6\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 120 214 / var(--tw-bg-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 425px) {
@@ -1624,6 +1644,10 @@ header nav div.menu-menu_header_desktop-container ul {
 
   .md\:ml-10 {
     margin-left: 2.5rem;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:flex {

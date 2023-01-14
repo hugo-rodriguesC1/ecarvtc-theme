@@ -23,10 +23,16 @@
             <h1 class="sr-only"><a><?php bloginfo('name'); ?></a></h1>
             <h2 class="sr-only"><?php bloginfo('description'); ?></h2>
             <nav class="w-full flex justify-between items-center">
-                <a href="<?php echo home_url('/'); ?>">
-                    <img class=" w-[70px] sm:w-20" src="<?php echo get_template_directory_uri(); ?>/img/logo.svg"
-                        alt="Logo">
-                </a>
+                <div class="flex items-center">
+                    <a href="<?php echo home_url('/'); ?>">
+                        <img class=" w-[70px] sm:w-20" src="<?php echo get_template_directory_uri(); ?>/img/logo.svg"
+                            alt="Logo">
+                    </a>
+                    <a href="<?php echo home_url('/'); ?>">
+                        <img class=" w-[70px] sm:w-20 hidden md:block" src="<?php echo get_template_directory_uri(); ?>/img/logoName.svg"
+                            alt="nom de la société">
+                    </a>
+                </div>
                 <a href="<?php echo home_url('/'); ?>">
                     <div class="flex flex-col items-center w-[70px] font-extrabold text-[#0D38AA] sm:hidden">
                         <div class="text-lg">E-CAR</div>

@@ -9,9 +9,9 @@
     <div class="post">
         <div class="sm:grid sm:grid-cols-2 sm:w-full sm:auto-rows-auto mt-28 md:mt-0">
             <img class="md:mt-20 md:w-full lg:hidden xs:w-96 "
-                src="<?php echo get_template_directory_uri(); ?>/img/voitureMobile.png">
+                src="<?php echo get_template_directory_uri(); ?>/img/voitureMobile.png" alt="voiture kia ev6">
             <img class=" hidden lg:block mt-16 xl:-mt-20"
-                src="<?php echo get_template_directory_uri(); ?>/img/voitureDesktop.png">
+                src="<?php echo get_template_directory_uri(); ?>/img/voitureDesktop.png" alt="voiture kia ev6">
 
             <div class=" col-start-2 xs:mt-6 sm:mt-10 md:mt-40 xs:mx-8 3xl:mx-[10vw]">
                 <h1 class="sr-only xs:not-sr-only xs:text-3xl md:text-5xl font-extrabold text-white">
@@ -22,10 +22,10 @@
                 </div>
                 <div class="text-[#F3F5FF] text-lg hidden lg:block mt-8">
                     <div class="mt-3">
-                        Reserver dès maintenant votre course privé peu importe la distance !
+                        Réservez dès maintenant votre course privée peu importe la distance !
                     </div>
                     <div class="mt-3">
-                        A votre disposition pour tout départs ou arrivées dans l'aire urbaine de Belfort-Montbéliard.
+                        À votre disposition pour tous départs ou arrivées dans l'aire urbaine de Belfort-Montbéliard.
                     </div>
                     <div class="mt-3">
                         Et toute autre destination en Europe, quelle que soit la distance à parcourir.
@@ -45,40 +45,45 @@
             <div class="flex items-center gap-2">
                 <div class="w-[40px] h-[40px] bg-gradient-to-r from-[#0378d6] to-[#0d38aa]">
                 </div>
-                <h2>Les avantages E-car VTC</h2>
+                <h2 class="uppercase">Les avantages haut de gamme d'E-Car VTC</h2>
             </div>
 
             <div class="flex lg:justify-center flex-col lg:flex-row gap-10 lg:mt-20">
                 <div class="relative w-full mb-32 mt-10 lg:mt-0">
-                    <img class="w-full" src="<?php echo get_template_directory_uri(); ?>/img/pro-3.webp">
+                    <img class="w-full" src="<?php echo get_template_directory_uri(); ?>/img/pro-3.png"
+                        alt="voiture kia ev6">
                     <div class="absolute w-4/5 p-4 bg-white left-1/2 right-1/2 top-3/4 -translate-x-1/2 shadow-md">
-                        <h3 class=" font-bold">Véhicule électrique</h3>
+                        <h3 class=" font-bold">VTC écologique</h3>
                         <div class="w-full bg-[#0d38aa] h-0.5 my-2"></div>
                         <p class="text-sm font-medium">
-                            Réserver votre VTC électrique afin de vous déplacer dans
-                            n'importe quelle ville avec une mobilité zéro émission.
+                            Réserver votre VTC électrique afin de vous déplacez dans
+                            n'importe quelle ville avec une mobilité écologique.
                         </p>
                     </div>
                 </div>
                 <div class="relative w-full mb-32 ">
-                    <img class="w-full" src="<?php echo get_template_directory_uri(); ?>/img/pro-1.webp">
+                    <img class="w-full" src="<?php echo get_template_directory_uri(); ?>/img/pro-1.webp"
+                        alt="pot rempli par des pièces">
                     <div class="absolute w-4/5 p-4 bg-white left-1/2 right-1/2 top-3/4 -translate-x-1/2 shadow-md">
-                        <h3 class=" font-bold">Tarif concurrenciel</h3>
+                        <h3 class=" font-bold">Tarif concurrenciel d'E-Car VTC</h3>
                         <div class="w-full bg-[#0d38aa] h-0.5 my-2"></div>
                         <p class="text-sm font-medium">
-                            Possedant un des tarifs les moins chères du Grand-Est.
-                            Votre VTC privé est à votre disposition.
+                            Possédant un des <span class="font-bold text-[#0d38aa]">tarifs les plus bas</span> du
+                            Grand-Est,
+                            Votre <span class="font-bold text-[#0d38aa]">VTC privé</span> est à votre disposition.
                         </p>
                     </div>
                 </div>
                 <div class="relative w-full mb-32 ">
-                    <img class="w-full" src="<?php echo get_template_directory_uri(); ?>/img/pro-2.webp">
+                    <img class="w-full" src="<?php echo get_template_directory_uri(); ?>/img/pro-2.webp"
+                        alt="intérieur de la kia ev6">
                     <div class="absolute w-4/5 p-4 bg-white left-1/2 right-1/2 top-3/4 -translate-x-1/2 shadow-md">
                         <h3 class=" font-bold">Confort unique</h3>
                         <div class="w-full bg-[#0d38aa] h-0.5 my-2"></div>
                         <p class="text-sm font-medium">
-                            Profiter d'un accueil chaleureux au sein de votre véhicule privé.
-                            Là où vous profiterez de Netflix, Spotify et le WI-FI.
+                            Profitez d'un accueil chaleureux au sein de votre véhicule privé et
+                            d'un <span class="font-bold text-[#0d38aa]">confort unique</span> avec Netflix, Spotify et
+                            le rechargement de vos appareils.
                         </p>
                     </div>
                 </div>
@@ -87,17 +92,17 @@
         </div>
 
 
-        <div class=" bg-[#0d38aa] w-full mt-40 flex flex-col gap-10">
-            <p class="text-[#F3F5FF] px-6 py-6 text-sm sm:w-3/5 sm:m-12">
-                E-Car VTC vous propose un trajet avec impact
-                <span class=" lg:font-bold">environnemental zéro émssion</span>.
+        <div class=" bg-[#0d38aa] w-full mt-40 flex flex-col gap-10 px-6 xs:px-10 sm:px-16 md:px-32">
+            <p class="text-[#F3F5FF] px-6 py-6 text-base sm:w-3/5 sm:m-12">
+                E-Car VTC vous propose un trajet avec un
+                <span class=" lg:font-bold">impact environnemental réduit</span>.
                 La conduite sereine et apaisée
-                de notre <span class=" lg:font-bold">chauffeur</span>
-                Luc Eymann vous feras
-                presque oublier qu'E-Car VTC possède un des <span class=" lg:font-bold">tarifs les plus bas</span> de la
-                région !
+                de votre <span class=" lg:font-bold">chauffeur</span>
+                vous fera presque oublier qu'E-Car VTC possède un des
+                <span class=" lg:font-bold">tarifs les plus bas</span>
+                de la région !
             </p>
-            <a class="px-4 py-3 uppercase text-base font-semibold bg-white border border-white text-[#0d38aa] flex items-center self-end w-56 mb-6 mr-4"
+            <a class="px-4 py-3 uppercase text-base font-semibold bg-white border border-white text-[#0d38aa] flex items-center self-end w-56 mb-10 mr-4 hover:bg-transparent hover:text-white"
                 href="<?php echo home_url('/tarifs-et-services'); ?>">Consulter les tarifs</a>
         </div>
 
@@ -108,7 +113,7 @@
                     <div class="flex items-center gap-2">
                         <div class="w-[40px] h-[40px] bg-gradient-to-r from-[#0378d6] to-[#0d38aa]">
                         </div>
-                        <h2>Services proposés</h2>
+                        <h2 class="uppercase">Services proposés</h2>
                     </div>
                     <p class=" text-sm font-medium lg:mt-10">E-Car VTC assure tous vos déplacements personnels ou
                         professionnels,
@@ -134,7 +139,7 @@
                     </div>
 
                     <div class=" w-full flex flex-col mt-8">
-                        <a class="px-4 py-3 uppercase text-base font-semibold bg-[#0d38aa] border border-[#0d38aa] text-white flex items-center self-end"
+                        <a class="px-4 py-3 uppercase text-base font-semibold bg-[#0d38aa] border border-[#0d38aa] text-white flex items-center self-end hover:bg-[#0378D6] hover:border-[#0378D6]"
                             href="<?php echo home_url('/tarifs-et-services'); ?>">Tous les tarifs</a>
                     </div>
                 </div>
@@ -150,7 +155,7 @@
             <div class="flex items-center gap-2 mt-24">
                 <div class="w-[40px] h-[40px] bg-gradient-to-r from-[#0378d6] to-[#0d38aa]">
                 </div>
-                <h2>Véhicule disponible</h2>
+                <h2 class="uppercase">Véhicule disponible</h2>
             </div>
 
 
@@ -176,24 +181,22 @@
                         </div>
                         <div class="flex w-full items-center gap-5 mt-6">
                             <img class="" src="<?php echo get_template_directory_uri(); ?>/img/ok-icon.svg">
-                            <p class=" text-sm font-medium">Capacité de recharge dans le véhicule</p>
+                            <p class=" text-sm font-medium">Capacité de recharge rapide</p>
                         </div>
                     </div>
                 </div>
                 <div class="sm:w-1/2">
                     <img class=" max-w-[86vw] mt-10 sm:max-w-full sm:max-h-96"
-                        src="<?php echo get_template_directory_uri(); ?>/img/kia-frontpage.png">
-                    <p class=" text-sm font-medium mt-10">La kia ev6 vous propose une confort a la pointe de la
-                        technologie, ce
-                        modele
-                        recent (2022) equiper de(..) Cote ecologie le vehivule permet de diminuer un maximum les effet
-                        nefaste
-                        sur la panete et tout cela a moindre cout avec des tarifs avantageux. </p>
+                        src="<?php echo get_template_directory_uri(); ?>/img/kia-frontpage.png" alt="voiture kia ev6">
+                    <p class=" text-sm font-medium mt-10">La KIA EV6 est un véhicule aux meilleurs standards de
+                        l'électromobilité : architecture électrique avec une technologie 800V, prestations premium et
+                        coûts d'exploitation avantageux. L'impact environnemental est sensiblement réduit par rapport à
+                        un véhicule thermique.</p>
                 </div>
             </div>
 
             <div class=" w-full flex flex-col mt-5 ">
-                <a class="px-4 py-3 uppercase text-base font-semibold bg-[#0d38aa] border border-[#0d38aa] text-white flex items-center self-end sm:self-start sm:-mt-20 lg:-mt-32 sm:px-10"
+                <a class="px-4 py-3 uppercase text-base font-semibold bg-[#0d38aa] border border-[#0d38aa] text-white flex items-center self-end sm:self-start sm:-mt-20 lg:-mt-32 sm:px-10 hover:bg-[#0378D6] hover:border-[#0378D6]"
                     href="<?php echo home_url('/reserver'); ?>">Réserver</a>
             </div>
 

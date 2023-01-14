@@ -13,7 +13,7 @@
         
         <div  class="px-6 mt-20 xs:px-10 sm:px-16 md:px-32">
 
-        <div class="text-sm font-medium my-5">
+        <div class="text-sm font-medium my-5 text-gray-600">
             <?php
             if ( function_exists('yoast_breadcrumb') ) {
             yoast_breadcrumb('

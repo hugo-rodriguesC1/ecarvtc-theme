@@ -13,7 +13,7 @@ Template Name: Tarif
 
     <img class="hidden lg:block w-full" src="<?php echo get_template_directory_uri(); ?>/img/imgCB.webp" alt="photo d'une carte bancaire">
 
-    <div class="px-6 xs:px-10 sm:px-20 md:px-32 lg:px-40 text-sm font-medium my-5">
+    <div class="px-6 xs:px-10 sm:px-20 md:px-32 lg:px-40 text-sm font-medium my-5 text-gray-600">
             <?php
             if ( function_exists('yoast_breadcrumb') ) {
             yoast_breadcrumb('
@@ -38,8 +38,8 @@ Template Name: Tarif
             if( $my_query->have_posts() ) : while( $my_query->have_posts() ) : $my_query->the_post(); ?>
                 <div class="w-[325px] border border-[#0378D6] mx-auto mt-5 lg:mx-0 lg:border-0 lg:shadow-md">
                     <div class="text-white font-bold text-xl bg-[#0D38AA] flex py-3 justify-center "><?php the_content(); ?></div>
-                    <div class="font-medium flex justify-center py-6 relative after:w-1/2 after:h-px after:bg-[#0378D6] after:absolute after:top-full"><?php echo the_field('tarif_de_jour'); ?> par km en tarif de jour</div>
-                    <div class="font-medium flex justify-center py-6"><?php echo the_field('tarif_de_nuit'); ?> par km en tarif de nuit</div>
+                    <div class="font-medium flex justify-center py-6 relative after:w-1/2 after:h-px after:bg-[#0378D6] after:absolute after:top-full"><?php echo the_field('tarif_de_jour'); ?> TTC par km en tarif de jour</div>
+                    <div class="font-medium flex justify-center py-6"><?php echo the_field('tarif_de_nuit'); ?> TTC par km en tarif de nuit</div>
                 </div>
                 <?php endwhile;
             endif;
@@ -47,6 +47,7 @@ Template Name: Tarif
             wp_reset_postdata();
         ?>
     </div>
+    <p class="px-6 xs:px-10 sm:px-20 md:px-32 lg:px-40 text-sm font-medium my-5 text-gray-600">* Pour toutes courses pendant un jour férier : 2,30 € / km TTC</p>
 
     <div class="lg:flex lg:items-center lg:justify-center lg:gap-10 mt-14">
         <div class="h-px w-[16vw] bg-black hidden lg:block"></div>
@@ -60,23 +61,23 @@ Template Name: Tarif
                 Prise en charge
             </h4>
             <div class="text-[#0D38AA] text-3xl font-medium flex justify-center items-center h-32 bg-white lg:text-base">
-                12 €&nbsp;<span class="hidden lg:block text-black">pour toutes commandes</span>
+                12 €&nbsp;<span class="hidden lg:block text-black">TTC pour toutes commandes</span>
             </div>
         </div>
         <div class="border border-[#0378D6] w-full lg:w-[325px] lg:border-0 shadow-md">
             <h3 class="bg-[#0378D6] text-white flex justify-center items-center py-4">
                 Frais d'attente
             </h3>
-            <div class="flex flex-col justify-center h-32 font-medium text-base px-5 bg-white">
+            <div class="flex flex-col justify-center items-center h-32 font-medium text-base px-5 bg-white">
                 <div><span class="text-[#0D38AA]">Gratuit</span> avant la course</div>
-                <div><span class="text-[#0D38AA]">15€</span> / 15min</div>
-                <div><span class="text-[#0D38AA]">50€</span> / heure</div>
+                <div><span class="text-[#0D38AA]">15€</span> / 15min TTC</div>
+                <div><span class="text-[#0D38AA]">50€</span> / heure TTC</div>
             </div>
         </div>
     </div>
 
     <div class="mt-14 text-center">
-        <a class="uppercase w-52 text-white p-3 bg-[#0D38AA] font-semibold text-base" href="<?php echo home_url('/reserver'); ?>">
+        <a class="uppercase w-52 text-white p-3 bg-[#0D38AA] hover:bg-[#0378D6] font-semibold text-base" href="<?php echo home_url('/reserver'); ?>">
             Réserver une course
         </a>
     </div>
@@ -89,8 +90,8 @@ Template Name: Tarif
 
     <div class="w-[325px] border border-[#0378D6] mx-auto mt-5 lg:my-10 lg:border-0 lg:shadow-md">
         <div class="text-white font-bold text-xl bg-[#0D38AA] flex py-3 justify-center ">Information de tarif</div>
-        <div class="font-medium flex justify-center py-5 relative after:w-1/2 after:h-px after:bg-[#0378D6] after:absolute after:top-full"><span class="text-[#0D38AA]">50 €</span> / heure</div>
-        <div class="font-medium flex justify-center py-5 relative after:w-1/2 after:h-px after:bg-[#0378D6] after:absolute after:top-full">Journée complète (8 heures) = <span class="text-[#0D38AA]">350€</span></div>
+        <div class="font-medium flex justify-center py-5 relative after:w-1/2 after:h-px after:bg-[#0378D6] after:absolute after:top-full"><span class="text-[#0D38AA]">50 €</span> / heure  TTC</div>
+        <div class="font-medium flex justify-center py-5 relative after:w-1/2 after:h-px after:bg-[#0378D6] after:absolute after:top-full">Journée complète (8 heures) = <span class="text-[#0D38AA]">350€</span>&nbsp;TTC</div>
         <div class="font-medium flex justify-center py-5">Majoration tarif de nuit <span class="text-[#0D38AA]">+50%</span></div>
     </div>
 
@@ -119,7 +120,7 @@ Template Name: Tarif
             <div class="w-52 flex flex-col justify-center items-center font-medium text-base text-center gap-6 lg:w-auto">
                 <img class="px-0" src="<?php echo get_template_directory_uri(); ?>/img/journal.svg" alt="icone journal"/>
                 <div class="font-medium text-base text-center px-10">
-                    Médias disponible 
+                    Médias disponibles 
                     (Le Monde, les Echos)
                 </div>
             </div>
@@ -153,7 +154,7 @@ Template Name: Tarif
     </div>
 
     <div class="my-14 text-center hidden lg:block mb-28">
-        <a class="uppercase w-52 text-white p-3 bg-[#0D38AA] font-semibold text-base" href="<?php echo home_url('/contact'); ?>">
+        <a class="uppercase w-52 text-white p-3 bg-[#0D38AA] hover:bg-[#0378D6] font-semibold text-base" href="<?php echo home_url('/contact'); ?>">
             Nous contacter
         </a>
     </div>

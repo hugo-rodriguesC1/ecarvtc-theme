@@ -1,6 +1,6 @@
       <footer class="text-white bg-[#0D38AA] p-8 lg:p-20 ">
           <div class=" w-full text-lg font-bold text-white flex gap-[2.66vw]">
-              <h3 class="w-[150px] ">Companie</h3>
+              <h3 class="w-[150px] ">Société</h3>
               <h3 class="w-[150px] ">Informations</h3>
               <h3 class="w-[150px] hidden lg:block">Réserver</h3>
           </div>
@@ -22,14 +22,14 @@
               <img class="" src="<?php echo get_template_directory_uri(); ?>/img/logo-white.svg" alt="Logo">
               <div class=" font-medium text-sm mt-10 lg:flex lg:gap-7 lg:mt-0">
                   <div class="flex w-full justify-between xs:justify-center xs:gap-5  lg:w-auto lg:gap-7">
-                      <a href="">
+                      <a href="<?php echo home_url('/conditions-generales-de-vente'); ?>">
                           <p>Conditions générales de ventes</p>
                       </a>
-                      <a href="">
-                          <p>Cookies</p>
+                      <a href="<?php echo home_url('/mentions-legales'); ?>">
+                          <p>Mentions légales</p>
                       </a>
                   </div>
-                  <a href="">
+                  <a href="<?php echo home_url('/politique-de-confidentialite'); ?>">
                       <p class="flex w-full justify-center mt-4 lg:mt-0 lg:w-auto">Politique de confidentialité</p>
                   </a>
               </div>
