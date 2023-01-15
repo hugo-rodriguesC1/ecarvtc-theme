@@ -24,9 +24,13 @@
         </a>
         <?php endwhile; ?>
         <?php else : ?>
-        <p class="nothing">
-        Il n'y a pas de Post à afficher !
-        </p>
+        <div class="px-6 mt-20 xs:px-10 sm:px-16 md:px-32 text-3xl pb-20">
+            <p class="">
+            La page que vous recherchez n'existe pas
+            </p>
+            <a class="underline text-[#0378D6] hover:text-[#0d38aa]"
+                    href="<?php echo home_url('/'); ?>">Accueil</a>
+        </div>
         <?php endif; ?>
     </div>
 </div> 

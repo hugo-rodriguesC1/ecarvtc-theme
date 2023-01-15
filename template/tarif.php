@@ -150,6 +150,7 @@ Template Name: Tarif
 
     <div class="font-bold text-black text-2xl text-center mt-32 hidden lg:block">
         <p>Vous souhaitez plus de renseignements ?</p>
+        <p>Un problème avec votre réservation ?</p>
         <p>Contactez nous directement !</p>
     </div>
 

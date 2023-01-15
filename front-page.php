@@ -17,8 +17,8 @@
                 <h1 class="sr-only xs:not-sr-only xs:text-3xl md:text-5xl font-extrabold text-white">
                     <?php the_title(); ?></h1>
                 <div class="text-[#F3F5FF] px-6 py-6 text-sm lg:hidden xs:text-base sm:text-lg xs:px-0">
-                    À votre disposition pour tout départs ou arrivées dans l'aire urbaine de Bélfort-Montbéliard.
-                    Réserver dès maintenant votre course peu importe la distance !
+                    À votre disposition pour tous départs ou arrivées dans l'aire urbaine de Bélfort-Montbéliard.
+                    Réservez dès maintenant votre course peu importe la distance !
                 </div>
                 <div class="text-[#F3F5FF] text-lg hidden lg:block mt-8">
                     <div class="mt-3">
@@ -100,7 +100,7 @@
                 de votre <span class=" lg:font-bold">chauffeur</span>
                 vous fera presque oublier qu'E-Car VTC possède un des
                 <span class=" lg:font-bold">tarifs les plus bas</span>
-                de la région !
+                de la région&nbsp;!
             </p>
             <a class="px-4 py-3 uppercase text-base font-semibold bg-white border border-white text-[#0d38aa] flex items-center self-end w-56 mb-10 mr-4 hover:bg-transparent hover:text-white"
                 href="<?php echo home_url('/tarifs-et-services'); ?>">Consulter les tarifs</a>
@@ -198,6 +198,19 @@
             <div class=" w-full flex flex-col mt-5 ">
                 <a class="px-4 py-3 uppercase text-base font-semibold bg-[#0d38aa] border border-[#0d38aa] text-white flex items-center self-end sm:self-start sm:-mt-20 lg:-mt-32 sm:px-10 hover:bg-[#0378D6] hover:border-[#0378D6]"
                     href="<?php echo home_url('/reserver'); ?>">Réserver</a>
+            </div>
+
+            <div class="font-bold text-black text-2xl text-center mt-32 hidden lg:block">
+                <p>Vous souhaitez plus de renseignements ?</p>
+                <p>Un problème avec votre réservation ?</p>
+                <p>Contactez nous directement !</p>
+            </div>
+
+            <div class="my-14 text-center hidden lg:block mb-28">
+                <a class="uppercase w-52 text-white p-3 bg-[#0D38AA] hover:bg-[#0378D6] font-semibold text-base"
+                    href="<?php echo home_url('/contact'); ?>">
+                    Nous contacter
+                </a>
             </div>
 
         </div>

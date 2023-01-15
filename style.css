@@ -1181,6 +1181,10 @@ header nav div.menu-menu_header_desktop-container ul {
   padding-left: 2.5rem;
 }
 
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1255,6 +1259,11 @@ header nav div.menu-menu_header_desktop-container ul {
   color: rgb(13 56 170 / var(--tw-text-opacity));
 }
 
+.text-\[\#0378D6\] {
+  --tw-text-opacity: 1;
+  color: rgb(3 120 214 / var(--tw-text-opacity));
+}
+
 .text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
@@ -1263,6 +1272,10 @@ header nav div.menu-menu_header_desktop-container ul {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .opacity-50 {
@@ -1389,6 +1402,11 @@ header nav div.menu-menu_header_desktop-container ul {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#0d38aa\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(13 56 170 / var(--tw-text-opacity));
 }
 
 @media (min-width: 425px) {
