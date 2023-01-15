@@ -103,7 +103,47 @@ Tags: simple, facile, sans danger, base pour la suite
      top: 0;
  }
 
+ .wpcf7-form {
+    font-size: 21px;
+    font-weight: bold;
+    color: black;
+ }
 
+ .wpcf7-form input {
+    border-width: 2px;
+    border-color: #BBBBBB;
+    width: 100%;
+ }
+
+ .wpcf7-form textarea {
+    border-width: 2px;
+    border-color: #BBBBBB;
+    width: 100%;
+ }
+
+ @media (min-width:800px) {
+    .wpcf7-form input {
+        border-width: 2px;
+        border-color: #BBBBBB;
+        width: 75%;
+     }
+    
+     .wpcf7-form textarea {
+        border-width: 2px;
+        border-color: #BBBBBB;
+        width: 75%;
+     }
+    }
+
+ .wpcf7-submit {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+    background-color: #0D38AA;
+    color: #fff;
+    border: none;
+    width: 25%;
+ }
 
 
 
